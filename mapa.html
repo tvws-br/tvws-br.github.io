@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css" />
+<script defer src="assets/script.js"></script>
+<title>TVWS</title>
+
+    <!-- Leaflet (CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    
+<header class="header">
+  <nav class="nav">
+    <div class="brand">TVWS BR</div>
+    <div class="spacer"></div>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="publicacoes.html">Publicações</a>
+      <a href="mapa.html">Mapa</a>
+    </div>
+  </nav>
+</header>
+
+    <main class="container">
+      <h1>Mapa</h1>
+      <p class="muted">Mapa do espectro.</p>
+      <div id="map" class="card"></div>
+    </main>
+    
+<footer class="footer">
+  © <span id="y"></span> TVWS-BR· Hospedado no GitHub Pages
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</footer>
+
+    <script>
+      // Fortaleza como ponto inicial
+      const center = [-3.730, -38.526];
+      const map = L.map('map').setView(center, 12);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
+
+      const marker = L.marker(center).addTo(map);
+      marker.bindPopup('Fortaleza, CE — ponto inicial.');
+
+      // exemplo de outro ponto (adicione mais conforme necessário)
+      const ufc = [-3.744, -38.576];
+      L.circle(ufc, { radius: 800, color: '#7aa2ff' }).addTo(map)
+        .bindPopup('Campus — exemplo de área.');
+    </script>
+  </body>
+</html>
