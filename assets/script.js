@@ -1,11 +1,9 @@
-// Highlight active menu item based on current path
+// Realça o item ativo via JS (fallback) quando o Liquid não marcar.
 (function(){
-  const path = location.pathname.split('/').pop() || 'index.html';
+  const path = location.pathname.replace(/\/$/,''); // remove trailing /
   document.querySelectorAll('.menu a').forEach(a => {
-    const href = a.getAttribute('href');
-    if ((path === 'index.html' && href === 'index.html') ||
-        (path !== 'index.html' && href === path)) {
-      a.classList.add('active');
-    }
+    const href = a.getAttribute('href').replace(/\/$/,'');
+    if (href === path) a.classList.add('active');
+    if (path === '' && href.endsWith('/')) a.classList.add('active');
   });
 })();
