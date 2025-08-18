@@ -4,24 +4,12 @@ title: Mapa
 permalink: /mapa/
 ---
 
-# Mapa do Projeto
+# Mapa com estimativa de banda TVWS no Brasil
 
-<div id="map" class="card"></div>
+<div style="margin-bottom: 1em;">
+  <a href="http://200.160.6.14/brmap/" target="_blank" class="btn" style="padding: 0.5em 1em; background-color: #007acc; color: white; text-decoration: none; border-radius: 4px;">
+    🌐 Abrir mapa completo em nova aba
+  </a>
+</div>
 
-<script>
-  // Fortaleza como ponto inicial
-  const center = [-3.730, -38.526];
-  const map = L.map('map').setView(center, 12);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(map);
-
-  const marker = L.marker(center).addTo(map);
-  marker.bindPopup('Fortaleza, CE — ponto inicial.');
-
-  // Exemplo adicional (ajuste ou acrescente conforme necessidade)
-  const ufc = [-3.744, -38.576];
-  L.circle(ufc, { radius: 800, color: '#7aa2ff' }).addTo(map)
-    .bindPopup('Campus — exemplo de área.');
-</script>
+<iframe src="http://200.160.6.14/brmap/" width="100%" height="500" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>

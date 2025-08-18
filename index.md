@@ -11,7 +11,7 @@ title: Home
 <div class="card" style="margin-top:16px">
     <h2>Apresentação</h2>
     <p>
-      O projeto é coordenado pelo <strong>Professor Rodrigo</strong>, do Grupo de Pesquisa em Telecomunicações Sem Fio (GTEL), 
+      O projeto é coordenado pelo <strong>Professor Rodrigo Porto</strong>, do Grupo de Pesquisa em Telecomunicações Sem Fio (GTEL), 
       com colaboração com diversos pesquisadores e instituições que investiga o uso da tecnologia <em>TV White Spaces</em> (TVWS) no contexto brasileiro.
       A iniciativa busca explorar as frequências não utilizadas do espectro de TV digital para prover acesso à internet em regiões remotas ou de difícil cobertura por meios convencionais. 
     </p>

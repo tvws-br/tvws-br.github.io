@@ -23,7 +23,7 @@ permalink: /publicacoes/
         Conclusões do Projeto TV White Space (GTEL)
       </a>
     </div>
-    <div class="meta"><span class="badge">GTEL</span> · Relato técnico e apresentação</div>
+    <div class="meta"><span class="badge">GTEL</span> Relato técnico e apresentação</div>
     <div class="tags"><span class="badge">TVWS</span><span class="badge">Inclusão Digital</span></div>
   </div>
 
