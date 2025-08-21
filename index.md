@@ -37,7 +37,7 @@ title: Home
   <article class="card">
     <h2>Parcerias e Colaboração</h2>
     <p>
-      Projeto financiado pelo <abbr title="Núcleo de Informação e Coordenação do Ponto BR">NIC.br</abbr>.
+      Projeto financiado pelo <abbr title="Núcleo de Informação e Coordenação do Ponto BR">NIC.br</abbr> e <abbr title="Embaixada Britânica no Brasil">Embaixada Britânica</abbr>.
       A execução conta com a participação do <abbr title="Grupo de Pesquisa em Telecomunicações Sem Fio">GTEL</abbr> da <abbr title="Universidade Federal do Ceará">UFC</abbr>,
       do <abbr title="Instituto Nacional de Telecomunicações">Inatel</abbr>, da <abbr title="Agência Nacional de Telecomunicações">Anatel</abbr>, do <abbr title="Laboratório de Computação Inteligente Aplicada">LACINA/UFCG</abbr> e de outros parceiros estratégicos.  
       O trabalho é conduzido por equipes multidisciplinares, com experiência consolidada nas áreas de telecomunicações, redes de computadores e gestão do espectro,  reforçando o compromisso com a pesquisa aplicada e com o impacto social positivo.

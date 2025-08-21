@@ -6,9 +6,9 @@ permalink: /mapa/detalhe
 
 # Estimativa de banda TVWS no Brasil
 
-<div style="margin-bottom: 1em;">
-  <a href="https://nic02.duckdns.org/brmap/" target="_blank" class="btn" style="padding: 0.5em 1em; background-color: #007acc; color: white; text-decoration: none; border-radius: 4px;">
-    🌐 Abrir mapa completo em nova aba
-  </a>
+<div class="card" style="margin-top:16px">
+    <h2>Taxa de transferência</h2>
+    <p>
+      Para a estimaiva de taxa de transferência (vazão da rede) foi utilizado uma cruva LTE com SINR de 0, 8 e 16 na equação de Shannon.
+    </p>
 </div>
-
