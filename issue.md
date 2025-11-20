@@ -1,0 +1,1 @@
+Novas métricas de sensoriamento
