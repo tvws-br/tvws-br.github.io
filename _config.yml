@@ -2,7 +2,36 @@ title: "TV White Space Brasil"
 description: "Avaliação e implementação de soluções de conectividade baseadas em TV White Spaces no Brasil."
 baseurl: ""    # deixe vazio para repositório do tipo usuario.github.io
 url: ""        # o GitHub Pages preencherá
-theme: null    # usar layout próprio
+# remote_theme: "mmistakes/minimal-mistakes" # (Apenas se não estiver usando a abordagem gem)
+theme: minimal-mistakes-jekyll 
+# theme: jekyll-theme-minimal #slate #minimal #null    # usar layout próprio
 markdown: kramdown
 kramdown:
   input: GFM
+
+include: ["_pages", "_posts"]
+
+
+# Configuração para que todas as páginas e posts usem o layout do MM
+defaults:
+  # Para posts (_posts)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single # Layout padrão do MM para posts
+      author_profile: true # Adiciona o perfil do autor
+      read_time: true
+      toc: true
+      toc_label: "Índice"
+      toc_icon: "list"
+
+  # Para páginas (arquivos na raiz)
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single # Layout padrão do MM para páginas
+      toc: true
+      toc_label: "ToC"
+      toc_icon: "list"

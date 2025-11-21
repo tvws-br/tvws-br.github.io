@@ -1,7 +1,14 @@
 ---
+# index.md
+layout: single #home
+title: Projeto TV White Space Brasil
+permalink: /
+---
+
+<!-- ---
 layout: default
 title: Home
----
+--- -->
 
 <section class="hero">
   <h1>TV White Space Brasil</h1>

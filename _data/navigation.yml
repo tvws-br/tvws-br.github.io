@@ -1,0 +1,10 @@
+# _data/navigation.yml
+main:
+  - title: "Home"
+    url: /
+  - title: "Publicações"
+    url: /publicacoes/
+  - title: "Mapa"
+    url: /mapa/
+  - title: "Contato"
+    url: /contact/
