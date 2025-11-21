@@ -1,0 +1,12 @@
+# _data/navigation.yml
+main:
+  - title: "Home"
+    url: /
+  - title: "Equipe"
+    url: /equipe/
+  - title: "Ferramentas"
+    url: /ferramentas/
+  - title: "Publicações"
+    url: /publicacoes/
+  - title: "Contato"
+    url: /contato/

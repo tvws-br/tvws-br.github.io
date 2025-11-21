@@ -1,54 +1,25 @@
 ---
-layout: default
-title: Home
+# index.md
+layout: single #home
+title: TV White Space Brasil
+permalink: /
+toc: false
+header:
+  overlay_color: "#333"
 ---
+> **Iniciativa para avaliar e implementar soluções de conectividade baseadas no uso eficiente do espectro de radiodifusão.**
 
-<section class="hero">
-  <h1>TV White Space Brasil</h1>
-  <p>Iniciativa para avaliar e implementar soluções de conectividade baseadas no uso eficiente do espectro de radiodifusão.</p>
-</section>
 
-<div class="card" style="margin-top:16px">
-    <h2>Apresentação</h2>
-    <p>
-      O projeto é coordenado pelo <strong>Professor Rodrigo Porto</strong>, do Grupo de Pesquisa em Telecomunicações Sem Fio (GTEL), 
-      com colaboração com diversos pesquisadores e instituições que investiga o uso da tecnologia <em>TV White Spaces</em> (TVWS) no contexto brasileiro.
-      A iniciativa busca explorar as frequências não utilizadas do espectro de TV digital para prover acesso à internet em regiões remotas ou de difícil cobertura por meios convencionais. 
-    </p>
-    <h2>Contexto</h2>
-    <p>
-      O TVWS permite o uso oportunista de frequências não ocupadas pelos serviços de TV, com controle por bases de dados de geolocalização
-      e conformidade regulatória. No Brasil, a adoção da tecnologia vem sendo analisada sob perspectivas técnica, operacional e regulatória,
-      com ênfase em inclusão digital e eficiência no uso do espectro.
-    </p>
-</div>
+O Projeto financiado pelo <abbr title="Núcleo de Informação e Coordenação do Ponto BR">NIC.br</abbr> e <abbr title="Embaixada Britânica no Brasil">Embaixada Britânica</abbr>, coordenado pelo Professor Rodrigo Porto, do <abbr title="Grupo de Pesquisa em Telecomunicações Sem Fio"> GTEL</abbr>/<abbr title="Universidade Federal do Ceará">UFC</abbr>, em colaboração com uma rede de pesquisadores e instituições (
+  <abbr title="Laboratório de Computação Inteligente Aplicada">LACINA</abbr>/<abbr title="Universidade Federal de Campina Grande">UFCG</abbr>,  <abbr title="Instituto Nacional de Telecomunicações">Inatel</abbr> e  <abbr title="Agência Nacional de Telecomunicações">Anatel</abbr>
+  ) dedicadas a investigar o uso da tecnologia *TV White Spaces* (TVWS) no contexto brasileiro.
 
-<div class="grid" style="margin-top:16px">
+Nossa iniciativa busca explorar as frequências ociosas do espectro de TV digital (os "espaços em branco") para prover acesso à internet de qualidade em regiões remotas ou onde a cobertura por meios convencionais é técnica ou economicamente inviável.
 
-  <article class="card">
-    <h2>Objetivos</h2>
-    <ul>
-      <li>Desenvolver e avaliar soluções técnicas para uso do TVWS em contextos rurais e remotos.</li>
-      <li>Validar desempenho, confiabilidade e conformidade com a regulamentação nacional.</li>
-      <li>Mapear desafios, oportunidades e modelos de adoção para expansão da conectividade.</li>
-    </ul>
-  </article>
+O TVWS permite o uso oportunista de frequências não ocupadas pelos serviços de radiodifusão, garantindo a proteção dos serviços primários através de **bases de dados de geolocalização**. Nesse contexto, a atuação do projeto se divide em três frentes principais:
 
-  <article class="card">
-    <h2>Parcerias e Colaboração</h2>
-    <p>
-      Projeto financiado pelo <abbr title="Núcleo de Informação e Coordenação do Ponto BR">NIC.br</abbr> e <abbr title="Embaixada Britânica no Brasil">Embaixada Britânica</abbr>.
-      A execução conta com a participação do <abbr title="Grupo de Pesquisa em Telecomunicações Sem Fio">GTEL</abbr> da <abbr title="Universidade Federal do Ceará">UFC</abbr>,
-      do <abbr title="Instituto Nacional de Telecomunicações">Inatel</abbr>, da <abbr title="Agência Nacional de Telecomunicações">Anatel</abbr>, do <abbr title="Laboratório de Computação Inteligente Aplicada">LACINA/UFCG</abbr> e de outros parceiros estratégicos.  
-      O trabalho é conduzido por equipes multidisciplinares, com experiência consolidada nas áreas de telecomunicações, redes de computadores e gestão do espectro,  reforçando o compromisso com a pesquisa aplicada e com o impacto social positivo.
-    </p>
-  </article>
-</div>
+* **Desenvolvimento de Soluções:** Criar e avaliar arquiteturas técnicas para o uso do TVWS especificamente adaptadas a contextos rurais e remotos brasileiros.
+* **Validação de Campo:** Testar o desempenho, a confiabilidade e a robustez das conexões, assegurando total conformidade com a regulamentação nacional vigente.
+* **Mapeamento de Oportunidades:** Identificar desafios de implantação e propor modelos de negócios sustentáveis para a expansão da conectividade.
 
-<!-- <div class="card" style="margin-top:16px">
-  <h2>Saiba mais</h2>
-  <ul>
-    <li><a href="https://www.nic.br/noticia/na-midia/avanca-projeto-que-permite-ofertar-internet-nos-white-spaces/" target="_blank" rel="noopener">Avança projeto que permite ofertar internet nos white spaces — NIC.br</a></li>
-    <li><a href="https://nic.br/noticia/releases/projeto-analisa-o-uso-da-tecnologia-tv-white-spaces-no-brasil-para-ampliar-inclusao-digital/" target="_blank" rel="noopener">Projeto analisa o uso da tecnologia TV White Spaces no Brasil — NIC.br</a></li>
-  </ul>
-</div> -->
+A execução deste projeto é realizada por equipes multidisciplinares com experiência consolidada em telecomunicações, redes de computadores e gestão do espectro. Isso reforça nosso compromisso com a pesquisa aplicada e o impacto social positivo.

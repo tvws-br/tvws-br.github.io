@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: wide
 title: Detalhes do Mapa
 permalink: /mapa/detalhe
 ---
