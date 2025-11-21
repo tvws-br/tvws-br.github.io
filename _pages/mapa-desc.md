@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Detalhes do Mapa
-permalink: /mapa/metodologia
+permalink: /mapa/metodologia/
 ---
 
 
