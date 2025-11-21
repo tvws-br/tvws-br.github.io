@@ -2,7 +2,7 @@ title: "TV White Space Brasil"
 description: "Avaliação e implementação de soluções de conectividade baseadas em TV White Spaces no Brasil."
 baseurl: ""    # deixe vazio para repositório do tipo usuario.github.io
 url: ""        # o GitHub Pages preencherá
-remote_theme: "mmistakes/minimal-mistakes" # (Apenas se não estiver usando a abordagem gem)
+# remote_theme: "mmistakes/minimal-mistakes" # (Apenas se não estiver usando a abordagem gem)
 theme: minimal-mistakes-jekyll 
 # theme: jekyll-theme-minimal #slate #minimal #null    # usar layout próprio
 markdown: kramdown
