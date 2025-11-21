@@ -1,0 +1,59 @@
+# _data/authors.yml
+
+rodrigo:
+  name: Francisco Rodrigo P. Cavalcanti
+  email: rodrigo@gtel.ufc.edu.br
+  bio: |
+    Coordenador Geral do Projeto.
+  # avatar: /assets/images/team/rodrigo-avatar.jpg
+  linkedin: frpcavalcanti
+
+carlos:
+  name: Carlos Filipe Moreira e Silva
+  email: cfm@gtel.ufc.edu.br
+  bio: |
+    Coordenador Técnico na área de Telecomunicações e Engenharia. 
+  # avatar: /assets/images/team/carlos-avatar.jpg
+  # linkedin: username-do-linkedin-carlos
+
+thiago:
+  name: Thiago Nóbrega
+  email: thiagonobrega@dsc.ufcg.edu.br
+  bio: |
+    Coordenador Técnico na área de Engenharia de Dados e Sistemas. 
+  # avatar: /assets/images/team/thiago-avatar.jpg
+  linkedin: nobregathiago
+  github: nobregat
+
+edilson:
+  name: Edilson Filho
+  # email: edilson@example.com
+  bio: |
+    Desenvolvedor e Pesquisador Doutorando na UFC. Focado na implementação de soluções e ferramentas de software para o projeto.
+  # avatar: /assets/images/team/edilson-avatar.jpg
+  # github: username-do-github-edilson
+
+wilker:
+  name: Wilker Feitosa
+  # email: wilker@example.com
+  bio: |
+    Pesquisador em Telecomunicações e Mestrando na UFC. Atua na parte de análise de espectro, prototipação e validação de sistemas TVWS.
+  # avatar: /assets/images/team/wilker-avatar.jpg
+  # linkedin: username-do-linkedin-wilker
+
+joao_gabriel:
+  name: João Gabriel
+  # email: joaogabriel@example.com
+  bio: |
+    Desenvolvedor e Pesquisador Mestrando na UFCG. Focado na implementação de soluções e ferramentas de software para o projeto.
+  # avatar: /assets/images/team/joao-gabriel-avatar.jpg
+  # github: username-do-github-joaogabriel
+
+ericj:
+  name: Erick Ray
+  # email: ericj@example.com
+  bio: |
+    Pesquisador Graduando na UFC. Suporte técnico e contribuição em estudos e levantamento de dados para as atividades do projeto.
+  # avatar: /assets/images/team/ericj-avatar.jpg
+  # linkedin: username-do-linkedin-ericj
+

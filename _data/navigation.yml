@@ -2,9 +2,11 @@
 main:
   - title: "Home"
     url: /
+  - title: "Equipe"
+    url: /equipe/
+  - title: "Ferramentas"
+    url: /ferramentas/
   - title: "Publicações"
     url: /publicacoes/
-  - title: "Mapa"
-    url: /mapa/
   - title: "Contato"
     url: /contact/
